@@ -137,7 +137,7 @@ INSERT INTO Stock (Description, Quantity, StockStatusId, StockGroupId) VALUES
 ('Tennis Racket', 30, 1, 4),
 ('Office Chair', 25, 2, 3);
 
-INSERT INTO Sale (CustomerId, CreateDateTime, SaleStatus, CompleteDateTime, SaleChannelId) VALUES
+INSERT INTO Sale (CustomerId, CreateDateTime, SaleStatus, CompleteDateTime, ChannelId) VALUES
 (1, '2018-01-15 14:30:00', 'Complete', '2018-01-15 14:35:00', 1),
 (2, '2018-01-16 09:45:00', 'Complete', '2018-01-16 10:00:00', 2),
 (3, '2018-01-20 16:20:00', 'Complete', '2018-01-20 16:30:00', 1),
