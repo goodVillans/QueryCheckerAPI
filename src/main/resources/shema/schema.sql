@@ -58,7 +58,7 @@ CREATE TABLE Sale (
     CreateDateTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     SaleStatus VARCHAR(50),
     CompleteDateTime TIMESTAMP NULL,
-    SaleChannelId INT,
+    FOREIGN KEY (ChannelId) REFERENCES Channel(ChannelId),
     FOREIGN KEY (CustomerId) REFERENCES Customer(CustomerId)
 );
 
